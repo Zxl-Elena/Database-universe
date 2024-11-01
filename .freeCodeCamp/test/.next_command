@@ -79,3 +79,42 @@ sudo systemctl status postgresql
 sudo systemctl start postgresql
 psql -U postgres < universe.sql
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+ls --color=auto
+git init
+git add universe.sql
+git commit -m "Add universe.sql file"
+git remote add origin https://github.com/Zxl-Elena/universe-database.git
+git remote set-url origin https://github.com/Zxl-Elena/universe-database.git
+git branch
+git push -u origin main
+git remote set-url origin git@github.com:Zxl-Elena/universe-database.git
+git push -u origin main
+ls --color=auto ~/.ssh
+git remote add origin https://github.com/Zxl-Elena/universe-database.git
+git remote -v
+git branch
+git push -u origin main
+git init
+git add universe.sql
+git commit -m "Add universe.sql file"
+git remote add origin https://github.com/Zxl-Elena/Database-universe.git
+git remote -v
+git remote set-url origin https://github.com/Zxl-Elena/Database-universe.git
+git remote -v
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/Zxl-Elena/Database-universe.git
+git push -u origin main
+pwd
+ls --color=auto
+ls --color=auto -al ~/.ssh
+ssh-keygen -t ed25519 -C "elena.xl.int@gmail.com"
+ls --color=auto -al ~/.ssh
+cat ~/.ssh/id_ed25519.pub
+git remote -v
+git remote set-url origin git@github.com:Zxl-Elena/Database-universe.git
+git remote -v
+git add universe.sql
+git commit -m "Add universe.sql file"
+git add .
